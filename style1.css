@@ -1,0 +1,61 @@
+*{
+    font-family: 'Eczar', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+img#circle{
+    transition: .6s ease-in-out;
+    width: 100%;
+    
+}
+
+/* .active{
+    font-weight: bolder;
+    color: red !important ;
+} */
+
+
+#navbar button{
+    background-color: #F9DBBB;
+}
+#navbar button:hover{
+    background-color: orange;
+}
+#aboutme{
+    background-color: #E5E5E5;
+}
+#aboutme img{
+    width: 70%;
+}
+
+@media (min-width: 576px) {
+    
+
+ }
+
+ @media (min-width: 1200px) {
+    #Home p{
+        inline-size: 15vw;opacity: 50%;
+    }
+    #aboutme p{
+        inline-size: 30vw;
+    }
+    #aboutme img{
+        width: 25%;
+    }
+    #lingkaran{
+        height: 45rem !important;
+    }
+    #lingkaran img{
+        width: 50%;
+    }
+    #skillcarousel{
+        width: 35rem !important;
+    }
+    
+
+
+
+  }
