@@ -245,7 +245,6 @@ var TxtRotate = function(el, toRotate, period) {
   var swiperProject = new Swiper('.slider', {
     slidesPerView: 1,
     speed: 1000,
-    grabCursor: true,
     pagination: {
       el: '.slider__pagination',
       clickable: true,
