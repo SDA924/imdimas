@@ -227,6 +227,7 @@ var TxtRotate = function(el, toRotate, period) {
   var swiper = new Swiper(".mySwiper", {
     effect: "cards",
     loop: true,
+    grabCursor: true,
     rotate: true,
     mousewheel: {
         invert: true,
@@ -238,6 +239,7 @@ var TxtRotate = function(el, toRotate, period) {
   var swiperProject = new Swiper('.slider', {
     slidesPerView: 1,
     speed: 1000,
+    grabCursor: true,
     pagination: {
       el: '.slider__pagination',
       clickable: true,
