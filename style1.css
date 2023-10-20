@@ -13,7 +13,9 @@ img#circle{
     
 }
 
-
+a{
+  text-decoration: none;
+}
 #navbarNav .active{
   font-weight: bolder;
     color: red !important ;
