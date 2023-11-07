@@ -59,6 +59,12 @@ a{
 
 
  @media (min-width: 1200px) {
+	#iqiyi{
+		height: 14.5vw !important;
+	}
+	#mediactt{
+		height: 14.5vw !important;
+	}
     #imghome{
       width: 30% !important;
     }
